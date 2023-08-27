@@ -1,0 +1,74 @@
+body {
+    font-family:  Georgia, Times, 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+img{
+    width: 100%;
+}
+.container {
+    background-image: url('book\ stack.jpeg');
+    background-position: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.library {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 13px 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    background-color: black;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#remove-last-btn,
+#add-front-btn,
+#remove-first-btn {
+    background-color: black;
+    margin-top: 5;
+}
+
+#remove-last-btn:hover,
+#add-front-btn:hover,
+#remove-first-btn:hover {
+    background-color: black;
+}
+#book-list{
+    color:white;
+    background-position: 100%;
+}
